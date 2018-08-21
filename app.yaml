@@ -1,0 +1,15 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.php
+
+- url: /index.php
+  script: index.php
+
+- url: /sum.php
+  script: sum.php
+
+- url: /results.php
+  script: results.php
